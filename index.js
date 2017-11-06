@@ -1,3 +1,5 @@
+var number = a 
+
 function add () {
   number += b
 }
