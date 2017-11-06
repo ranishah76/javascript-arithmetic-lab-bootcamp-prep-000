@@ -20,4 +20,3 @@ function divide () {
   number /= b
 }
 divide ()
-
