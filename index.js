@@ -7,9 +7,9 @@ function subtract () {
 }
 
 function multiply () {
-  number *= b 
+  number *= b
 }
 
 function divide () {
-  number /= b 
+  number /= b
 }
