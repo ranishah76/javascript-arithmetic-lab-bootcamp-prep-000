@@ -1,22 +1,32 @@
-var number = a
-
-function add () {
-  number += b
+function add(a,b) {
+  return a + b;
 }
 
-add ()
-
-function subtract () {
-  number -= b
+function subtract (a,b) {
+  return a - b;
 }
-subtract ()
 
-function multiply () {
-  number *= b
+function multiply (a,b) {
+  return a * b;
 }
-multiply ()
 
-function divide () {
-  number /= b
+function divide (a,b) {
+  return a / b
 }
-divide ()
+
+function inc(n) {
+  return ++n;
+}
+
+function dec(n) {
+  return --n;
+}
+
+function makeInt(n) {
+  return parseInt(n, 10);
+}
+
+function preserveDecimal(n) {
+  return parseFloat(n)
+}
+
